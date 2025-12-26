@@ -1,6 +1,7 @@
 "use client";
 
 import useUnloadWarning from "@/hooks/useUnloadWarning";
+import { ResumeServerData } from "@/lib/types";
 import { cn, mapToResumeValues } from "@/lib/utils";
 import { ResumeValues } from "@/lib/validation";
 import { useSearchParams } from "next/navigation";
@@ -10,7 +11,6 @@ import Footer from "./Footer";
 import ResumePreviewSection from "./ResumePreviewSection";
 import { steps } from "./steps";
 import useAutoSaveResume from "./useAutoSaveResume";
-import { ResumeServerData } from "@/lib/types";
 
 interface ResumeEditorProps {
   resumeToEdit: ResumeServerData | null;
