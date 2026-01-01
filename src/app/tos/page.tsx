@@ -9,7 +9,7 @@ export default function Page() {
     <main className="mx-auto max-w-prose space-y-6 p-3 py-6">
       <h1 className="text-center text-2xl font-bold">Terms of Service</h1>
       <p className="text-center text-sm text-muted-foreground">
-        Effective Date: Oct 31, 2024
+        Effective Date: Jan 01, 2026
       </p>
       <p>
         Welcome to AI Resume Builder. These Terms of Service (&quot;Terms&quot;)
@@ -148,9 +148,10 @@ export default function Page() {
       <h2 className="text-xl font-semibold">15. Governing Law</h2>
       <p>
         These Terms are governed by and construed in accordance with the laws of
-        [Insert Jurisdiction], without regard to its conflict of law provisions.
-        Any disputes arising from these Terms will be subject to the exclusive
-        jurisdiction of the courts located in [Insert Location].
+        the State of California, USA, without regard to its conflict of law
+        provisions. Any disputes arising from these Terms will be subject to the
+        exclusive jurisdiction of the courts located in Los Angeles County,
+        California.
       </p>
       <h2 className="text-xl font-semibold">16. Changes to the Terms</h2>
       <p>
@@ -162,7 +163,7 @@ export default function Page() {
       <h2 className="text-xl font-semibold">17. Contact Us</h2>
       <p>
         If you have any questions about these Terms, please contact us at
-        [Insert Contact Information].
+        ale@ajfm88.com.
       </p>
       <p>
         By using AI Resume Builder, you acknowledge that you have read,

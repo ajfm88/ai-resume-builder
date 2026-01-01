@@ -1,5 +1,5 @@
 import logo from "@/assets/logo.png";
-import resumePreview from "@/assets/resume-preview.jpg";
+import resumePreview from "@/assets/resume-preview.png";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Link from "next/link";
@@ -24,7 +24,8 @@ export default function Home() {
         </h1>
         <p className="text-lg text-gray-500">
           Our <span className="font-bold">AI resume builder</span> helps you
-          design a professional resume, even if you&apos;re not very smart.
+          design a professional resume, even if you&apos;ve never written one
+          before.
         </p>
         <Button asChild size="lg" variant="premium">
           <Link href="/resumes">Get started</Link>
